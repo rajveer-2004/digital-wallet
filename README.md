@@ -48,9 +48,8 @@ npm install
 
 🔐 Create a .env file:
 
-PORT=5000
+PORT=8080
 MONGO_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
 EMAIL_USER=your_ethereal_email
 EMAIL_PASS=your_ethereal_password
 

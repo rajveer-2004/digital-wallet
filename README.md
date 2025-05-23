@@ -5,7 +5,6 @@ A secure and modular backend for a Digital Wallet System built using Node.js, Ex
 🚀 Deployed at: GitHub: github.com/rajveer-2004/digital-wallet
 
 
-
 ✅ Features
 
 🔐 User Registration & Login (with JWT + bcrypt)

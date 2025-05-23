@@ -4,6 +4,8 @@ A secure and modular backend for a Digital Wallet System built using Node.js, Ex
 
 🚀 Deployed at: GitHub: github.com/rajveer-2004/digital-wallet
 
+
+
 ✅ Features
 
 🔐 User Registration & Login (with JWT + bcrypt)
@@ -20,6 +22,8 @@ A secure and modular backend for a Digital Wallet System built using Node.js, Ex
 
 📧 Optional Email Alerts (via nodemailer + ethereal/mock)
 
+
+
 🛠️ Tech Stack
 
 Backend: Node.js, Express.js
@@ -33,6 +37,8 @@ Email: Nodemailer (mocked with ethereal or console logs)
 Scheduler: node-cron
 
 Docs:  Postman 
+
+
 
 📦 Installation
 
@@ -51,6 +57,8 @@ EMAIL_PASS=your_ethereal_password
 ▶️ Start the server:
 
 npm start
+
+
 
 🧪 API Documentation
 
@@ -116,6 +124,9 @@ Top users by balance
 
 ➡️ Full API details in /docs or Postman collection.
 
+
+
+
 🧠 Folder Structure
 
 digital-wallet/
@@ -129,6 +140,9 @@ digital-wallet/
 ├── app.js             # Entry point
 └── README.md          # Project readme
 
+
+
+
 🛡️ Fraud Detection Rules
 
 ❗ Multiple transfers in a short time → flagged
@@ -137,15 +151,21 @@ digital-wallet/
 
 Flagged transactions are stored/logged for admin review.
 
+
+
 📬 Email Alerts (Mocked)
 
 Large withdrawals or rapid transfers
 
 Use Ethereal for testing or console logging
 
+
+
 🕒 Scheduled Jobs
 
 Daily fraud scan at midnight via node-cron
+
+
 
 📌 Future Enhancements
 
@@ -160,9 +180,6 @@ Rate limit middleware for abuse prevention
 
 Pull requests welcome! Feel free to open issues or suggest improvements.
 
-🪪 License
-
-This project is open-source and available under the MIT License.
 
 Built with ❤️ by Rajveer
 
